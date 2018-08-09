@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\cpp\csv2xml.cpp" />
+    <ClCompile Include="..\cpp\Function.cpp" />
     <ClCompile Include="..\cpp\main.cpp" />
     <ClCompile Include="..\cpp\Net.cpp" />
   </ItemGroup>

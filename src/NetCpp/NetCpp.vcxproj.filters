@@ -21,6 +21,12 @@
     <ClCompile Include="..\cpp\Net.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\cpp\Function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\csv2xml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Net.h">
