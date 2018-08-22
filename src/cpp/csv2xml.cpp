@@ -14,9 +14,11 @@ int csv2xml()
 {
 	////¶ÁÈ¡CSVÊý¾Ý
 	Ptr<ml::TrainData> train_data;
-	train_data = ml::TrainData::loadFromCSV("./data/1.csv", 1);
+	train_data = ml::TrainData::loadFromCSV("./Resource/data/1.csv", 1);
 	Mat m = train_data->getTrainSamples();
 
 	imshow("CSV", m);
 	cv::waitKey(1);
+
+	return 0;
 }
